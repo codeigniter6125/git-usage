@@ -45,3 +45,18 @@ git push --tags	Pushes tags -->
 git pull → Fetch updates and integrate them into your current branch.
 git push → Upload your commits.
 git clone → Download a repository to create a local copy. -->
+<!-- D. Branches and merging
+Command	What it does
+git branch	Lists local branches
+git branch -a	Lists local and remote-tracking branches
+git branch feature-login	Creates a branch
+git switch feature-login	Switches to an existing branch
+git switch -c feature-login	Creates and switches to a branch
+git branch -m new-name	Renames the current branch
+git merge feature-login	Merges that branch into the current branch
+git branch -d feature-login	Deletes a merged local branch
+git branch -D feature-login	Force-deletes a local branch
+git push -u origin feature-login	Publishes a branch to the remote
+git push origin --delete feature-login	Deletes a remote branch
+git branch -m main	Rename the current branch to main; refuses to overwrite an existing local main branch
+git branch -M main	Rename the current branch to main, allowing an existing local main branch to be overwritten -->
