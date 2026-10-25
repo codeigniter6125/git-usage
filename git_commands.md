@@ -40,3 +40,8 @@ git push -u origin main	Pushes main and sets its upstream
 git push origin branch-name	Pushes a specific branch
 git push --all origin	Pushes local branches
 git push --tags	Pushes tags -->
+<!-- Fetch brings information from GitHub to your local repository. Push sends your committed changes from your local repository to GitHub. -->
+<!-- git fetch → Get information about remote updates.
+git pull → Fetch updates and integrate them into your current branch.
+git push → Upload your commits.
+git clone → Download a repository to create a local copy. -->
